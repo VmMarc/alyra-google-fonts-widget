@@ -14,7 +14,7 @@ const Articles = ({ text, sizePolice }) => {
         <p className="sample" style={{ fontSize: `${sizePolice}px` }}>
           {text}
         </p>
-        <a rel="noopener noreferrer" target="_blank" className="text-danger"></a>
+        <a rel="noopener noreferrer" target="_blank" className="text-danger" />
       </div>
     </article>
   )
