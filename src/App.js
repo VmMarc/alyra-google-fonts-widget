@@ -4,7 +4,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Main from './components/Main'
 
-function App() {
+const App = () => {
+  // const =[url, setUrl] = useState(`https://www.googleapis.com/webfonts/v1/webfonts?sort=popularity`)
   return (
     <div className="App">
       <Header />

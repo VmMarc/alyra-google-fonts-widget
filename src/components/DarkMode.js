@@ -2,13 +2,11 @@ import { useEffect, useState } from "react"
 
 const DarkMode = ({ children }) => {
   const [dark, setDark] = useState(JSON.parse(localStorage.getItem("darkMode")) || false)
-  const modeClasses = dark ? "bg-dark text-white min-vh-100" : "bg-light min-vh-100";
+  const modeClasses = dark ? "bg-black text-white min-vh-100" : "bg-light min-vh-100";
 
   const handleDarkMode = () => {
     setDark(!dark)
   }
-
-
 
   useEffect(() => {
     localStorage.setItem("darkMode", JSON.stringify(dark))
