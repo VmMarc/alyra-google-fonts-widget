@@ -86,16 +86,14 @@ const Main = () => {
               </div>
             </div>
           </div>
+          <div className="col-lg-9">
+            <section className="row mb-5">
+              <Display viewPolice={viewPolice} policeList={policeList} text={text} sizePolice={sizePolice} />
+            </section>
+          </div>
         </div>
       </div>
-      <div className="col-lg-9">
-        <section className="row mb-5">
-          <h2 className="mb-3">
-            <Display viewPolice={viewPolice} policeList={policeList} text={text} sizePolice={sizePolice} />
-          </h2>
-        </section>
-      </div>
-    </main >
+    </main>
   )
 }
 
